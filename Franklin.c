@@ -7,8 +7,8 @@
 #define COM 0
 #define TERMINATE 1
 
-int getMinimium(int a, int b){
-    return a < b ? a : b;
+int getMaximum(int a, int b){
+    return a < b ? b : a;
 }
 int main(int argc, char** argv) {
     // process rank
@@ -35,9 +35,9 @@ int main(int argc, char** argv) {
             MPI_Recv(&valueFromLeft, 1, MPI_INT, right, COM, MPI_COMM_WORLD, &status);
             MPI_Recv(&valueFromRight, 1, MPI_INT, left, COM, MPI_COMM_WORLD, &status);
 
-            if(getMinimium(valueFromLeft, valueFromRight) > my_rank){
+            if(getMaximum(valueFromLeft, valueFromRight) > my_rank){
                 isActive = false;
-            } else if (getMinimium(valueFromLeft, valueFromLeft) == my_rank){
+            } else if (getMaximum(valueFromLeft, valueFromLeft) == my_rank){
                 printf("Eu sunt procesul %d si sunt leaderul\n", my_rank);
                 MPI_Send(&my_rank, 1, MPI_INT, right, TERMINATE, MPI_COMM_WORLD);
                 break;
@@ -58,3 +58,4 @@ int main(int argc, char** argv) {
     MPI_Finalize();
     return 0;  
 }
+
