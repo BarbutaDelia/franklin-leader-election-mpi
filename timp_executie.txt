@@ -1,0 +1,32 @@
+25 Eu sunt procesul 24 si sunt leaderul
+Timpul total de executie: 0.003846 secunde
+50 Eu sunt procesul 49 si sunt leaderul
+Timpul total de executie: 0.006778 secunde
+75 Eu sunt procesul 74 si sunt leaderul
+Timpul total de executie: 0.042351 secunde
+100 Eu sunt procesul 99 si sunt leaderul
+Timpul total de executie: 0.057407 secunde
+125 Eu sunt procesul 124 si sunt leaderul
+Timpul total de executie: 0.141913 secunde
+150 Eu sunt procesul 149 si sunt leaderul
+Timpul total de executie: 0.218114 secunde
+175 Eu sunt procesul 174 si sunt leaderul
+Timpul total de executie: 0.364511 secunde
+200 Eu sunt procesul 199 si sunt leaderul
+Timpul total de executie: 0.640698 secunde
+225 Eu sunt procesul 224 si sunt leaderul
+Timpul total de executie: 1.120833 secunde
+250 Eu sunt procesul 249 si sunt leaderul
+Timpul total de executie: 2.998660 secunde
+275 Eu sunt procesul 274 si sunt leaderul
+Timpul total de executie: 2.931342 secunde
+300 Eu sunt procesul 299 si sunt leaderul
+Timpul total de executie: 1.746101 secunde
+325 Eu sunt procesul 324 si sunt leaderul
+Timpul total de executie: 1.416805 secunde
+350 Eu sunt procesul 349 si sunt leaderul
+Timpul total de executie: 1.861528 secunde
+375 Eu sunt procesul 374 si sunt leaderul
+Timpul total de executie: 1.497230 secunde
+400 Eu sunt procesul 399 si sunt leaderul
+Timpul total de executie: 1.762651 secunde
